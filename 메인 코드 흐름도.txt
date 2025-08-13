@@ -1,0 +1,12 @@
+# db에서 host 테이블 정보 받아오기
+
+#영역별로 분류해서 각각 리스트에 담기
+category_list : unix, windows, security, network, pc, db, web, cloud 각 영역의 호스트 리스트가 담겨 있는 리스트
+
+category_list를 for문 돌려서 
+    영역을 특정 짓고(cnt 변수 사용?) 그 영역에 해당 하는 함수 리스트를 db에서 받아온다.
+    영역에 해당하는 호스트 리스트를 for문 돌려서
+        영역을 특정 짓고 (cnt 변수 사용?)
+        함수리스트를 for문 돌려서
+            해당 함수를 호출하고 결과값을 db에 저장한다.
+    
